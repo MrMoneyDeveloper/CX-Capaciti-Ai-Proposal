@@ -152,6 +152,8 @@
       .from('.hero-section .eyebrow', { y: 14, opacity: 0, duration: 0.4 }, '-=0.15')
       .from('.hero-section h1', { y: 18, opacity: 0, duration: 0.55 }, '-=0.22')
       .from('.hero-section .lead', { y: 14, opacity: 0, duration: 0.45 }, '-=0.25')
+      .from('.hero-section .proposal-scope', { y: 10, opacity: 0, duration: 0.35 }, '-=0.22')
+      .from('.hero-section .hero-event-links a', { y: 8, opacity: 0, duration: 0.3, stagger: 0.06 }, '-=0.2')
       .from('.hero-section .chip-row .stat-chip', { y: 10, opacity: 0, duration: 0.35, stagger: 0.06 }, '-=0.2')
       .from('.hero-section .hero-actions > *', { y: 12, opacity: 0, duration: 0.35, stagger: 0.07 }, '-=0.2')
       .from('.hero-section .logo-pill', { y: 10, opacity: 0, duration: 0.3, stagger: 0.06 }, '-=0.2')
